@@ -1,1 +1,2 @@
-document.getElementById("message").innerHTML = "Git is Awesome!";
+let userMessage = prompt("What would you like to tell?");
+document.getElementById("message").innerHTML = userMessage;
